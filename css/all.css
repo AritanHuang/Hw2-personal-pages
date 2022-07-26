@@ -145,6 +145,7 @@ h1{
     font-size: 80px;
     line-height: 106px;
 }
+/* banner區塊 */
 .banner{
     /* height: calc(100vh); */
     height: 958px;
@@ -165,7 +166,24 @@ h1{
 .icon-list :hover{
     opacity: 0.8;
 }
-
+/* about區塊 */
+.about{
+    width: 412px;
+    margin: 0 auto;
+    text-align: center;
+}
+.experience li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience .dot{
+    background: #891818;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
 /* Utility */
 .text-white{
     color: #fff;
@@ -187,10 +205,28 @@ h1{
     line-height: 42px;
 }
 .mb-4{
+    margin-bottom: 4px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-32{
     margin-bottom: 32px;
 }
-.mb-5{
+.mb-40{
     margin-bottom: 40px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.mb-56{
+    margin-bottom: 56px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.pb-23{
+    padding-bottom: 23px;
 }
 .fw-medium{
     font-weight: 500;
@@ -200,4 +236,7 @@ h1{
 }
 .fw-black{
     font-weight: 900;
+}
+.border-bottom{
+    border-bottom: 1px solid #000;
 }
