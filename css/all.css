@@ -206,6 +206,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
 }
+.works-list li img:hover{
+    box-shadow: 5px 5px 5px 5px #272727 ;
+}
 /* Utility */
 .txt-center{
     text-align: center;
