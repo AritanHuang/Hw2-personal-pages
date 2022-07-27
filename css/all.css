@@ -210,7 +210,15 @@ h1{
     box-shadow: 5px 5px 5px 5px #272727 ;
 }
 /* footer區塊 */
-
+.footer{
+    background: #000;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #984B4B;
+}
 /* Utility */
 .txt-center{
     text-align: center;
@@ -278,6 +286,12 @@ h1{
 }
 .pb-23{
     padding-bottom: 23px;
+}
+.pb-64{
+    padding-bottom: 64px;
+}
+.pt-64{
+    padding-top: 64px;
 }
 .pb-160{
     padding-bottom: 160px;
