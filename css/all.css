@@ -209,6 +209,8 @@ h1{
 .works-list li img:hover{
     box-shadow: 5px 5px 5px 5px #272727 ;
 }
+/* footer區塊 */
+
 /* Utility */
 .txt-center{
     text-align: center;
