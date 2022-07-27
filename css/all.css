@@ -140,6 +140,7 @@ body{
 }
 img{
     vertical-align: middle;
+    max-width: 100%;
 }
 h1{
     font-size: 80px;
@@ -170,7 +171,6 @@ h1{
 .about{
     max-width: 412px;
     margin: 0 auto;
-    text-align: center;
 }
 .experience li{
     display: flex;
@@ -188,7 +188,6 @@ h1{
 .brand{
     background: #000;
     border: 1px solid #707070;
-    text-align: center;
 }
 .brand-pic{
     max-width: 1200px;
@@ -200,7 +199,17 @@ h1{
 .brand-pic li:hover{
     box-shadow: 5px 5px 5px 5px #272727 ;
 }
+/* works區塊 */
+.works-list{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Utility */
+.txt-center{
+    text-align: center;
+}
 .text-white{
     color: #fff;
 }
@@ -229,23 +238,32 @@ h1{
 .mb-12{
     margin-bottom: 12px;
 }
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
 .mb-32{
     margin-bottom: 32px;
 }
 .mb-40{
     margin-bottom: 40px;
 }
-.mb-28{
-    margin-bottom: 28px;
+.mb-48{
+    margin-bottom: 48px;
 }
 .mb-56{
     margin-bottom: 56px;
 }
-.mb-20{
-    margin-bottom: 20px;
-}
 .mb-68{
     margin-bottom: 68px;
+}
+.mb-144{
+    margin-bottom: 144px;
 }
 .mt-56{
     margin-top: 56px;
