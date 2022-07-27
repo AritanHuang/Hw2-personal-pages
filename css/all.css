@@ -168,7 +168,7 @@ h1{
 }
 /* about區塊 */
 .about{
-    width: 412px;
+    max-width: 412px;
     margin: 0 auto;
     text-align: center;
 }
@@ -183,6 +183,22 @@ h1{
     height: 22px;
     border-radius: 50%;
     margin-right: 16px;
+}
+/* brand區塊 */
+.brand{
+    background: #000;
+    border: 1px solid #707070;
+    text-align: center;
+}
+.brand-pic{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.brand-pic li:hover{
+    box-shadow: 5px 5px 5px 5px #272727 ;
 }
 /* Utility */
 .text-white{
@@ -210,6 +226,9 @@ h1{
 .mb-8{
     margin-bottom: 8px;
 }
+.mb-12{
+    margin-bottom: 12px;
+}
 .mb-32{
     margin-bottom: 32px;
 }
@@ -225,8 +244,20 @@ h1{
 .mb-20{
     margin-bottom: 20px;
 }
+.mb-68{
+    margin-bottom: 68px;
+}
+.mt-56{
+    margin-top: 56px;
+}
+.mr-24{
+    margin-right: 24px;
+}
 .pb-23{
     padding-bottom: 23px;
+}
+.pb-160{
+    padding-bottom: 160px;
 }
 .fw-medium{
     font-weight: 500;
