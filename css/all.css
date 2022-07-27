@@ -157,7 +157,7 @@ h1{
     align-items: center;
 }
 .banner-content{
-    width: 304px;
+    max-width: 304px;
 }
 .icon-list{
     display: flex;
@@ -191,7 +191,7 @@ h1{
     text-align: center;
 }
 .brand-pic{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
