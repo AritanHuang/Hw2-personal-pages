@@ -128,9 +128,9 @@ table {
     border-spacing: 0;
 }
 *,
-*:before,
-*:after {
-    box-sizing: border-box;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 body{
     font-family:'Roboto',-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -158,9 +158,6 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.banner-content{
-    max-width: 304px;
-}
 .icon-list{
     display: flex;
     justify-content: space-between;
@@ -178,21 +175,27 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.experience .dot{
+.experience li::before{
+    content: "";
     background: #891818;
     width: 22px;
     height: 22px;
     border-radius: 50%;
     margin-right: 16px;
 }
+/* .experience .dot{
+    background: #891818;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 16px;
+} */
 /* brand區塊 */
 .brand{
     background: #000;
     border: 1px solid #707070;
 }
 .brand-pic{
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -202,8 +205,6 @@ h1{
 }
 /* works區塊 */
 .works-list{
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -221,6 +222,10 @@ h1{
     color: #984B4B;
 }
 /* Utility */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .txt-center{
     text-align: center;
 }
